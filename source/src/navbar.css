@@ -7,7 +7,7 @@
     position: fixed;
     background-color: #0f0f0fbf;
     width: auto;
-    height: 74px;
+    height: 18px;
     display: flex;
     justify-content: space-between;
     border: solid 0.5px --jaguar-blue-magenta;
@@ -18,25 +18,26 @@
 .container{
     img{
         cursor: pointer;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
     }
     .box img{
-        width: 5rem;
-        height: 3.5rem;
+        width: 3.2rem;
+        height: 1.4rem;
         padding-top: 10px;
-        padding-right: 40px;
+        padding-right: 10px;
+        padding-left: 30px;
+        margin-top: -8px;
     }
     .logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto 10rem;
     color: --gray90;
     }
 }
 .container .logo h1{
-    font-size: 25px;
+    font-size: 6px;
 }
 .menu-box{
     width: 0;
@@ -74,14 +75,14 @@
         display: inline-block;
         text-decoration: none;
         color: --gray90;
-        font-size: 6.5rem;
+        font-size: 1rem;
         font-weight: 600;
         position: relative;
         transition: 0.5s;
         text-transform: uppercase;
     }
     a:hover{
-        font-size: 8rem;
+        font-size: 2rem;
         color: --green-cyan;
     }
 }
