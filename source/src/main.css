@@ -36,9 +36,9 @@
 
 .main .left-content .button {
     border-radius: 5px;
-    margin: 0.5rem 0; /* Adjusted margin to fit the column layout */
-    padding: 0.25rem 0.5rem; /* Corrected padding units to rem */
-    font-size: 0.5rem; /* Reduced font size to 8px equivalent */
+    margin: 0.5rem 0;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.4rem;
     text-align: center;
     background: whitesmoke;
     transition: background 0.2s, transform 0.2s;
@@ -54,7 +54,6 @@
 .main .right-content {
     width: 12rem;
     height: 10rem;
-    background-color: var(--pitch-black);
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 /*------------MAIN_END------------*/
