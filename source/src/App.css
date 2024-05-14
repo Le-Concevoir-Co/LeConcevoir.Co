@@ -1,5 +1,7 @@
-@import url(./variables.css);
 @import url(./navbar.css);
+@import url(./main.css);
+@import url(./variables.css);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 #root {
   max-width: 1280px;
@@ -35,10 +37,3 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

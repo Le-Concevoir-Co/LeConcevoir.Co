@@ -1,3 +1,5 @@
+
+
 /*------------NAV-BAR_START------------*/
 .container{
     top: 0;
@@ -10,7 +12,7 @@
     height: 18px;
     display: flex;
     justify-content: space-between;
-    border: solid 0.5px --jaguar-blue-magenta;
+    border: solid 0.5px var(--jaguar-blue-magenta);
     /*-----------BLUR-----------*/
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
@@ -33,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: --gray90;
+    color: var(--gray90);
     }
 }
 .container .logo h1{
@@ -43,7 +45,7 @@
     width: 0;
     height: 0;
     position: fixed;
-    background-color: #000000;
+    background-color: var(--pitch-black);
     top: 0;
     right: 0;
     display: flex;
@@ -74,7 +76,7 @@
     a{
         display: inline-block;
         text-decoration: none;
-        color: --gray90;
+        color: var(--gray90);
         font-size: 1rem;
         font-weight: 600;
         position: relative;
@@ -83,7 +85,7 @@
     }
     a:hover{
         font-size: 2rem;
-        color: --green-cyan;
+        color: var(--green-cyan);
     }
 }
 /*------------NAV_END------------*/

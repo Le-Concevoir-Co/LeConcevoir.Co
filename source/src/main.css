@@ -1,0 +1,60 @@
+/*------------MAIN_START------------*/
+.main {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .left-content {
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+}
+
+.main .left-content h1 {
+    text-align: left;
+    line-height: 1;
+    background: -webkit-linear-gradient(-45deg, var(--frostbite), var(--midnight-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+    margin: 0.5rem 0; /* Add some margin for spacing */
+}
+
+.main .left-content a {
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem 0; /* Add some margin for spacing */
+}
+
+.main .left-content a:hover {
+    color: #ffffff;
+}
+
+.main .left-content .button {
+    border-radius: 5px;
+    margin: 0.5rem 0; /* Adjusted margin to fit the column layout */
+    padding: 0.25rem 0.5rem; /* Corrected padding units to rem */
+    font-size: 0.5rem; /* Reduced font size to 8px equivalent */
+    text-align: center;
+    background: whitesmoke;
+    transition: background 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.main .left-content .button:hover {
+    background: none;
+    transform: scale(1.05); /* Slightly increase the size on hover for visual feedback */
+    transition: background 0.2s, transform 0.2s;
+}
+
+.main .right-content {
+    width: 12rem;
+    height: 10rem;
+    background-color: var(--pitch-black);
+    border-radius: 2rem;
+}
+/*------------MAIN_END------------*/

@@ -46,7 +46,22 @@ function App() {
           <li><a href="/InDEV/loader.html">More</a></li>
           <li><a href="/InDEV/loader.html">More</a></li>
         </ul>
-      </div>    
+      </div>  
+      {/* --==================MAIN===================-- */}
+      <div className="main">
+          <div className="left-content">
+              <div className="text">
+                  <h1>Create<br/>Your Impact.</h1>
+              </div>
+              <a href="">
+                  <div className="button">
+                    Join us
+                  </div>
+              </a>
+          </div>
+          <div className="right-content">
+          </div>
+      </div>  
     </>
   );
 }
